@@ -1,30 +1,34 @@
-# Smart Employee Management System
+# 🚀 Smart Employee Management System
 
-## Tech Stack
+A production-ready backend application built using **Java, Spring Boot, Spring Data JPA, and MySQL**.  
+This project demonstrates clean architecture, RESTful API development, validation, pagination, and exception handling.
+
+---
+
+## 🛠 Tech Stack
+
 - Java 17
-- Spring Boot
-- Spring Data JPA
+- Spring Boot 3
+- Spring Data JPA (Hibernate)
 - MySQL
-- Swagger UI
-- Validation
-- Global Exception Handling
-- Pagination & Sorting
+- Maven
+- Lombok
+- Swagger (OpenAPI)
+- Spring Security (Basic Config)
 
-## How to Run
+---
 
-1. Create MySQL database:
-   CREATE DATABASE ems_db;
+## 📌 Features
 
-2. Update MySQL password in application.properties
+✔ Layered Architecture (Controller → Service → Repository)  
+✔ RESTful CRUD APIs  
+✔ Pagination & Sorting  
+✔ Global Exception Handling  
+✔ Validation using Hibernate Validator  
+✔ MySQL Database Integration  
+✔ Swagger API Documentation  
+✔ Clean Code Structure  
 
-3. Run SmartEmsApplication
+---
 
-4. Swagger UI:
-   http://localhost:8080/swagger-ui.html
-
-## Features
-- Full CRUD API
-- Pagination & Sorting
-- Validation
-- Clean Layered Architecture
-- Production Ready Structure
+## 🏗 Project Structure
